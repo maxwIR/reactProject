@@ -7,7 +7,7 @@
       "test": "npm run build && npm start",
       "build": "tsc -p .",
       "watch": "tsc -watch -p .",
-      "start": "node app/server.js"
+      "start": "node out/server.js"
    },
    "repository": {
       "type": "git",
