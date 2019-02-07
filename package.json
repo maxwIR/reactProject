@@ -1,0 +1,33 @@
+{
+   "name": "react",
+   "version": "1.0.0",
+   "description": "\"# reactProject\"",
+   "main": "out/server.js",
+   "scripts": {
+      "test": "npm run build && npm start",
+      "build": "tsc -p .",
+      "watch": "tsc -watch -p .",
+      "start": "node app/server.js"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/maxwIR/reactProject.git"
+   },
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "express": "^4.16.4"
+   },
+   "devDependencies": {
+      "@types/express": "^4.16.0",
+      "@types/node": "^10.12.15",
+      "typescript": "^3.2.2"
+   },
+   "bugs": {
+      "url": "https://github.com/maxwIR/reactProject/issues"
+   },
+   "homepage": "https://github.com/maxwIR/reactProject#readme",
+   "engines": {
+      "node": "10.14.1"
+   }
+}
